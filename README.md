@@ -1,3 +1,2 @@
 # Glassblowing
-Glassblowing HTML
-Glassblowing history webpage
+Glassblowing HTML Webpage
