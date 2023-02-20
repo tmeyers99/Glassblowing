@@ -1,0 +1,45 @@
+<!--THEMESTYLE-->
+body{
+    margin: 0:
+    
+}
+
+nav{
+    width: 100%;
+    float: right;
+}
+.menu{
+    margin: 0;
+    padding: 10px;
+    height: 25px;
+    background-color: white;
+    
+}
+
+.menu li{
+    display: inline;
+    
+}
+
+.button{
+    font-family: Arial;
+    font-size: 1.5em;
+    font-style: none;
+    color: black;
+    padding: 9px; 
+    text-decoration:none;
+}
+
+.button:link{
+    background-color: white;
+    color:black;
+    
+    
+}
+
+.button:hover{
+    background-color: lightgray;
+    
+    
+}
+
