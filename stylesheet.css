@@ -6,33 +6,39 @@ body{
 
 nav{
     width: 100%;
-    float: right;
+    float: left;
+
 }
 .menu{
     margin: 0;
-    padding: 10px;
+    padding: 19px;
     height: 25px;
-    background-color: white;
+    background-color: transparent;
+
+
+
     
 }
 
 .menu li{
     display: inline;
+    padding-left: 100px;
+    
     
 }
 
 .button{
-    font-family: Arial;
-    font-size: 1.5em;
+    font-family: monospace;
+    font-size: 2em;
     font-style: none;
-    color: black;
-    padding: 9px; 
+    color: white;
+    padding: 1px; 
     text-decoration:none;
 }
 
 .button:link{
-    background-color: white;
-    color:black;
+    background-color: transparent;
+    color:white;
     
     
 }
@@ -41,5 +47,54 @@ nav{
     background-color: lightgray;
     
     
+}
+
+h1{
+    font-size: 110px;
+    font-family: fantasy;
+    color: white;
+    padding: 20px 350px;
+    border-bottom: 5px solid white
+    
+    
+    
+}
+
+h2{
+    font-size: 100px;
+    font-family: fantasy;
+    color: white;
+    padding: 20px 200px;
+    border-bottom: 5px solid white
+    
+    
+    
+}
+
+h3{
+    font-size: 100px;
+    font-family: fantasy;
+    color: white;
+    padding: 20px 440px;
+    border-bottom: 5px solid white
+    
+}
+h4{
+    font-size: 25px;
+    font-family: monospace;
+    color: white;
+    
+    
+    
+}
+
+.feature-img{
+    height: 50%;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 450px;
+    
+
 }
 
