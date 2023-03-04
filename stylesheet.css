@@ -6,8 +6,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center
-    
+    background-position: center;
+   
 }
 
 nav{
@@ -58,7 +58,7 @@ nav{
 }
 
 h1{
-    font-size: 110px;
+    font-size: 105px;
     font-family: fantasy;
     color: white;
     padding: 20px 350px;
@@ -101,30 +101,45 @@ h4{
     position: absolute;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 450px;
+    padding-top: 650px;
     padding-bottom: 60px;
     margin-right: 100px
     
-
 }
-
-@media screen and (min-width: 800px){
-    .button{
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    
-    .menu{
-        flex-direction: column;
-        align-content: center
-        
-    }
-    
+@media (max-width:600px){
     h1{
-        width: auto
+        height:50px;
+        width:575px;
+        padding-top:50px;
+        padding-left:10px;
+        padding-right:25px;
+        font-size:80px;
+        color: black;
+    }
+    a.button{
+        height:2000px;
+        padding-top:1000px;
+        padding-left:20px;
+        padding-right:175px;
+        padding-bottom:800px;
+        font-size: 20px;
+        color: white;
         
     }
-  
+    
+    nav{
+        align-items: center;
+        width: 100%;
+        color: black;
+        display: flex
+        
+    }
+    body{
+        color: black;
+        background-size:100%
+        
+    }
+        
+  <!--THIS IS WHERE I LEFT OFF-->
     
     
